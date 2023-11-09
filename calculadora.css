@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'h1';
+    src: url(Fontes/Cakecafe.otf);
+}
+
+@font-face {
+    font-family: 'Calc';
+    src: url(Fontes/Spicy\ Pumpkin.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://www.maplebearsantana.com.br/blog/wp-content/uploads/2020/09/blog-qual-a-ligacao-do-estudo-teorico-de-musica-e-matematica.jpg') center;
+
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;    
+    display: grid;
+    place-items: center;
+
+}
+
+h1{
+    color:rgb(248, 190, 30);
+    position: absolute;
+    top: 2%;
+    font-family: h1;
+    font-size: 4rem;
+   
+
+}
+
+.calculadora{
+    background:#00000093;
+    border-radius: 4%;
+    padding: 2%;   
+
+}
+
+h2{
+    font-size: 1.5rem;   
+   
+}
+
+#resultado{
+    background: #fff;
+    color: black;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 2%;
+    overflow: hidden;
+    width: 14rem;
+    height: 2rem;
+
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: .2rem;
+    background-color: rgba(228, 197, 120, 0.863);
+    color: ghostwhite;
+    border: none;
+    transition: all .5s;
+    
+}
+
+button:hover{
+    border: 2px solid ghostwhite;
+    background: rgb(228, 172, 32) ;
+    transform: scale(150%);
+    transform: rotate(360deg); 
+}
+
+
+
+
+
+
+
+
